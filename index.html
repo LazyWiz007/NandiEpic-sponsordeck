@@ -1,0 +1,1480 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Nandi Epic 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,400..900&display=swap">
+<style>
+/* Layout: a dark data-story. Modular infographic panels on a 12-col grid,
+   full-bleed photography only as interstitial breathing room. Mobile-first. */
+:root{
+  --bg:#05060C; --panel:#0B0E18; --panel2:#10131F; --line:#1F2437;
+  --fg:#ECEFF7; --mute:#7C8399; --dim:#545B73;
+  --acid:#FFB01C; --amber:#FF5A1F; --cyan:#3B5BF0; --pink:#FF2D78; --violet:#8A5CF6;
+  --gold:#FFB01C; --red:#FF4040;
+  --disp:"Archivo","Helvetica Neue",Helvetica,Arial,sans-serif;
+  --body:"Helvetica Neue",Helvetica,Arial,"Liberation Sans",sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);
+  font-size:17px;line-height:1.5;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit}
+.wrap{width:100%;max-width:1240px;margin:0 auto;padding-inline:20px}
+@media(min-width:900px){.wrap{padding-inline:40px}}
+
+h1,h2,h3{margin:0;font-family:var(--disp);font-weight:800;line-height:1.02;
+  letter-spacing:-.02em;text-wrap:balance;font-variation-settings:"wdth" 112}
+h1{font-size:clamp(2.6rem,10vw,6rem);text-transform:uppercase}
+h2{font-size:clamp(1.9rem,6.2vw,3.4rem);text-transform:uppercase}
+h3{font-size:clamp(1.1rem,3vw,1.4rem);letter-spacing:-.01em}
+.eyebrow{font-size:clamp(1rem,2.2vw,1.25rem);font-weight:800;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--acid);margin:0 0 1.1rem;line-height:1.25}
+.eyebrow.m{color:var(--mute)}
+.lede{font-size:clamp(1.1rem,2.1vw,1.35rem);line-height:1.45;color:var(--fg);
+  max-width:38ch;margin:1.1rem 0 0;font-weight:500}
+.src{font-size:.74rem;line-height:1.45;color:var(--dim);margin:.6rem 0 0;letter-spacing:.02em}
+.num{font-family:var(--disp);font-weight:800;font-variant-numeric:tabular-nums;
+  font-variation-settings:"wdth" 118;line-height:.9;letter-spacing:-.03em}
+
+section{padding-block:clamp(3.2rem,9vw,6.5rem);position:relative}
+.sec-tight{padding-block:clamp(2.2rem,6vw,4rem)}
+.hr{height:1px;background:var(--line);border:0;margin:0}
+
+/* ---------- sticky nav ---------- */
+.topbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:60;
+  background:rgba(7,9,10,.86);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.topbar .inner{display:flex;align-items:center;gap:1rem;height:54px;overflow-x:auto;
+  scrollbar-width:none;-ms-overflow-style:none}
+.topbar .inner::-webkit-scrollbar{display:none}
+.topbar .brand{font-family:var(--disp);font-weight:800;font-size:.9rem;letter-spacing:.02em;
+  text-transform:uppercase;white-space:nowrap;flex:none;font-variation-settings:"wdth" 118}
+.navchips{display:flex;gap:.4rem;flex:1}
+.chip{background:none;border:1px solid var(--line);color:var(--mute);font:inherit;
+  font-size:.76rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+  padding:.38rem .7rem;white-space:nowrap;cursor:pointer;border-radius:100px;
+  transition:color .18s,border-color .18s,background .18s}
+.chip:hover{color:var(--fg);border-color:var(--dim)}
+.chip[aria-current="true"]{background:var(--acid);border-color:var(--acid);color:#0A0C06}
+.progress{position:absolute;left:0;bottom:-1px;height:2px;background:var(--acid);width:0}
+
+/* ---------- hero ---------- */
+.hero{position:relative;min-height:88vh;display:flex;align-items:flex-end;overflow:hidden}
+.herologo{position:absolute;z-index:4;top:clamp(1.1rem,3.6vw,2rem);left:20px;
+  width:clamp(104px,15vw,168px);height:auto;filter:drop-shadow(0 2px 14px rgba(0,0,0,.6))}
+@media(min-width:900px){.herologo{left:40px}}
+.nandimark{position:absolute;z-index:4;top:clamp(.6rem,2.4vw,1.3rem);right:20px;
+  width:clamp(118px,19vw,210px);height:auto;filter:drop-shadow(0 4px 22px rgba(0,0,0,.65))}
+@media(min-width:900px){.nandimark{right:40px}}
+.hero .bg,.band .bg{position:absolute;inset:0;z-index:0}
+.hero .bg img,.band .bg img{width:100%;height:100%;object-fit:cover}
+.hero::after,.band::after{content:"";position:absolute;inset:0;z-index:1;
+  background:linear-gradient(to top,rgba(7,9,10,.97) 4%,rgba(7,9,10,.70) 38%,rgba(7,9,10,.18) 100%)}
+.hero .wrap,.band .wrap{position:relative;z-index:2;width:100%;
+  padding-block:clamp(2.4rem,7vw,4.5rem)}
+.slot{display:inline-block;background:var(--acid);color:#0A0C06;padding:0 .18em .04em}
+.herostats{display:grid;grid-template-columns:repeat(3,1fr);gap:.8rem;margin-top:2rem;
+  border-top:1px solid rgba(255,255,255,.16);padding-top:1.4rem}
+.herostats .v{font-family:var(--disp);font-weight:800;font-size:clamp(1.3rem,4.6vw,2.3rem);
+  line-height:1;font-variation-settings:"wdth" 118}
+.herostats .k{font-size:.7rem;font-weight:700;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--mute);margin-top:.45rem;line-height:1.3}
+
+/* ---------- photo band ---------- */
+.band{position:relative;min-height:62vh;display:flex;align-items:flex-end;overflow:hidden}
+
+/* ---------- panels ---------- */
+.grid{display:grid;gap:clamp(.8rem,1.6vw,1.1rem);grid-template-columns:repeat(2,1fr)}
+@media(min-width:820px){.grid{grid-template-columns:repeat(4,1fr)}}
+.panel{background:var(--panel);border:1px solid var(--line);padding:clamp(1.2rem,2.6vw,1.8rem);
+  display:flex;flex-direction:column;min-width:0}
+.panel.span2{grid-column:span 2}
+.panel.span3{grid-column:span 2}
+.panel.span4{grid-column:span 2}
+@media(min-width:820px){
+  .panel.span3{grid-column:span 3}
+  .panel.span4{grid-column:span 4}
+}
+.panel .k{font-size:clamp(.84rem,1.7vw,.98rem);font-weight:800;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--mute);line-height:1.35}
+.panel .big{font-size:clamp(2rem,7vw,3.4rem);margin-top:.5rem}
+.panel .big.sm{font-size:clamp(1.5rem,5vw,2.4rem)}
+.panel .big.xl{font-size:clamp(2.2rem,5.4vw,3.5rem);letter-spacing:-.035em;
+  font-variation-settings:"wdth" 100;white-space:nowrap;min-width:0}
+.num .unit{font-size:.52em;margin-left:.06em;letter-spacing:0}
+
+/* ---------- quote logo chips ---------- */
+.qlogo{background:#fff;display:inline-block;padding:9px 12px;line-height:0;margin-bottom:1.1rem}
+.qlogo img{height:clamp(42px,6vw,58px);width:auto}
+.qlogo.sm img{height:clamp(34px,4.6vw,44px)}
+.qlogo.rb{margin-bottom:1rem;padding:10px 14px}
+.qlogo.rb img{height:clamp(44px,6.5vw,62px)}
+.qlogo.rb.tiny{margin:0;padding:7px 10px}
+.qlogo.rb.tiny img{height:clamp(26px,4vw,34px)}
+.sold-right{display:flex;align-items:center;gap:.9rem}
+
+/* ---------- past partner wall ---------- */
+.pwall{display:flex;flex-wrap:wrap;gap:1px;background:var(--line);
+  border:1px solid var(--line);margin-top:clamp(1.4rem,3vw,2rem)}
+.pchip{flex:1 1 128px;min-width:0;background:#fff;display:flex;align-items:center;
+  justify-content:center;padding:clamp(.9rem,2.2vw,1.4rem);aspect-ratio:3/2}
+.pchip img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain}
+.pchip.txt{background:#fff}
+.pchip.txt span{font-family:var(--disp);font-weight:800;font-size:clamp(.85rem,1.9vw,1.02rem);
+  line-height:1.15;color:#0B0E18;text-align:center;letter-spacing:-.01em}
+.bbchmark{width:clamp(150px,22vw,230px);height:auto;margin-bottom:1.2rem}
+
+/* ---------- golden slot section ---------- */
+.goldsec{background:
+  radial-gradient(1100px 520px at 50% 0%,rgba(244,169,43,.16),transparent 70%),var(--bg)}
+.eyebrow.gold{color:var(--gold)}
+.goldline{background:linear-gradient(100deg,var(--gold),#FFD98A 45%,var(--gold));
+  -webkit-background-clip:text;background-clip:text;color:transparent}
+
+.titlecard{position:relative;margin-top:1.8rem;padding:clamp(1.6rem,4vw,2.6rem);
+  border:1px solid var(--gold);
+  background:linear-gradient(155deg,rgba(244,169,43,.14),rgba(244,169,43,.03) 55%,transparent),var(--panel);
+  box-shadow:0 0 0 1px rgba(244,169,43,.18),0 24px 60px -30px rgba(244,169,43,.55)}
+.tcbadge{position:absolute;top:0;right:0;background:var(--gold);color:#120B02;
+  font-size:.68rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;padding:.4rem .8rem}
+.tctop{display:flex;flex-wrap:wrap;gap:1.2rem 2rem;align-items:flex-end;justify-content:space-between;
+  padding-bottom:1.3rem;border-bottom:1px solid rgba(244,169,43,.3)}
+.tclabel{font-size:clamp(1rem,2.2vw,1.25rem);font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+.tcname{font-family:var(--disp);font-weight:800;text-transform:uppercase;line-height:1.02;
+  font-size:clamp(1.6rem,5.4vw,3rem);margin-top:.5rem;letter-spacing:-.02em;
+  font-variation-settings:"wdth" 112;max-width:16ch}
+.tcprice{font-family:var(--disp);font-weight:800;color:var(--gold);line-height:.9;
+  font-size:clamp(2.4rem,9vw,4.6rem);font-variant-numeric:tabular-nums;letter-spacing:-.03em;
+  text-align:right;white-space:nowrap}
+.tcprice span{display:block;font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--mute);margin-top:.5rem;font-family:var(--body);font-weight:700}
+.tclist{list-style:none;margin:1.4rem 0 0;padding:0;display:grid;grid-template-columns:1fr;gap:.6rem}
+@media(min-width:680px){.tclist{grid-template-columns:1fr 1fr;gap:.6rem 2rem}}
+.tclist li{font-size:1.02rem;line-height:1.4;padding-left:1.7rem;position:relative}
+.tclist li::before{content:"";position:absolute;left:0;top:.32em;width:1.05em;height:1.05em;background:var(--gold);
+  -webkit-mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M4 12.6 9.4 18 20 6.4' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/></svg>") center/contain no-repeat;
+          mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M4 12.6 9.4 18 20 6.4' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/></svg>") center/contain no-repeat}
+
+/* ---------- placements: grid on desktop, carousel on a phone ---------- */
+.places{margin-top:clamp(1.6rem,3.5vw,2.4rem)}
+.carhead{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-bottom:.8rem}
+.carlbl{font-size:clamp(.95rem,2vw,1.15rem);font-weight:800;letter-spacing:.13em;text-transform:uppercase;color:var(--gold)}
+.carbtn{position:absolute;z-index:3;top:min(37.5%, calc((880px * 0.75) / 2));transform:translateY(-50%);
+  width:clamp(40px,7vw,52px);height:clamp(40px,7vw,52px);border-radius:50%;
+  background:rgba(7,9,10,.74);border:1px solid rgba(255,255,255,.26);color:#fff;
+  font-size:clamp(1.5rem,3.4vw,2rem);line-height:0;cursor:pointer;display:flex;
+  align-items:center;justify-content:center;padding:0 0 .12em 0;
+  backdrop-filter:blur(6px);transition:background .2s,border-color .2s,color .2s}
+.carbtn.prev{left:clamp(8px,1.6vw,16px)}
+.carbtn.next{right:clamp(8px,1.6vw,16px)}
+.carbtn:hover{background:var(--gold);border-color:var(--gold);color:#120B02}
+.carcount{font-family:var(--disp);font-weight:800;font-size:.95rem;color:var(--gold);
+  font-variant-numeric:tabular-nums;white-space:nowrap}
+.carcount .cd{display:none}
+.carstage{position:relative}
+.cartrack{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:0;
+  scrollbar-width:none;-ms-overflow-style:none;border:1px solid var(--line)}
+.cartrack::-webkit-scrollbar{display:none}
+.carslide{flex:0 0 100%;scroll-snap-align:start;margin:0;position:relative;background:var(--panel)}
+.carslide img{width:100%;aspect-ratio:4/3;object-fit:cover;background:#07090A;display:block}
+.carmark{position:absolute;top:clamp(.7rem,2vw,1.2rem);left:clamp(.7rem,2vw,1.2rem);
+  background:rgba(244,169,43,.94);color:#120B02;font-size:.72rem;font-weight:800;
+  letter-spacing:.14em;text-transform:uppercase;padding:.4rem .7rem}
+.carslide figcaption{padding:1rem 1.1rem 1.2rem;display:flex;flex-direction:column;gap:.2rem}
+.carslide figcaption strong{font-size:1.05rem}
+.carslide figcaption span{font-size:.88rem;color:var(--mute)}
+.cardots{display:flex;flex-wrap:wrap;gap:.4rem;justify-content:center;margin-top:1rem}
+.cardot{width:9px;height:9px;border-radius:50%;border:0;background:var(--line);cursor:pointer;padding:0}
+.cardot.on{background:var(--gold);width:20px;border-radius:100px}
+@media(min-width:760px){
+  .places .carbtn,.places .cardots{display:none}
+  .places .carcount .cm{display:none}
+  .places .carcount .cd{display:inline}
+  .places .cartrack{display:grid;grid-template-columns:repeat(2,1fr);
+    gap:clamp(.6rem,1.2vw,1rem);background:none;border:0;
+    overflow:visible;scroll-snap-type:none}
+  .places .carslide{flex:none;scroll-snap-align:none;border:1px solid var(--line)}
+  .places .carslide figcaption{padding:.85rem .95rem 1.05rem}
+  .places .carslide figcaption strong{font-size:.98rem}
+  .places .carslide figcaption span{font-size:.82rem}
+}
+@media(min-width:1000px){.places .cartrack{grid-template-columns:repeat(3,1fr)}}
+@media(min-width:1280px){.places .cartrack{grid-template-columns:repeat(4,1fr)}}
+
+/* ---------- remaining tiers ---------- */
+.restgrid{display:grid;grid-template-columns:1fr;gap:.7rem;margin-top:clamp(1.8rem,4vw,2.6rem)}
+@media(min-width:620px){.restgrid{grid-template-columns:1fr 1fr}}
+.resttab{display:flex;flex-direction:column;gap:.3rem;text-align:left;background:var(--panel);
+  border:1px solid var(--line);color:var(--mute);font:inherit;padding:1.2rem;cursor:pointer;
+  transition:border-color .2s,background .2s}
+.resttab[aria-pressed="true"]{border-color:var(--gold);background:#19130A}
+.resttab .rn{font-family:var(--disp);font-weight:800;font-size:1.1rem;text-transform:uppercase;color:var(--fg)}
+.resttab .rp{font-family:var(--disp);font-weight:800;font-size:clamp(1.5rem,4vw,2rem);color:var(--gold)}
+.resttab .rs{font-size:.78rem;color:var(--dim)}
+.restbody{background:var(--panel);border:1px solid var(--line);border-top:3px solid var(--gold);
+  padding:clamp(1.3rem,3.2vw,2rem);margin-top:.8rem}
+.soldstrip{display:flex;flex-wrap:wrap;gap:.5rem 1rem;align-items:center;justify-content:space-between;
+  margin-top:.8rem;padding:1rem 1.2rem;border:1px dashed var(--line);color:var(--dim)}
+.soldstrip .sn{font-weight:700;font-size:.95rem}
+.soldstrip .sv{font-weight:800;letter-spacing:.16em;text-transform:uppercase;font-size:.8rem;color:var(--red)}
+
+/* ---------- growth chart ---------- */
+.gchart{margin-top:1.8rem;background:var(--panel);border:1px solid var(--line);
+  padding:clamp(1.2rem,3vw,2rem)}
+.gcols{display:flex;align-items:flex-end;gap:clamp(1rem,4vw,2.6rem);
+  height:clamp(190px,34vw,260px)}
+.gcol{flex:0 1 110px;display:flex;flex-direction:column;justify-content:flex-end;height:100%;min-width:0}
+.gval{font-family:var(--disp);font-weight:800;font-size:clamp(.95rem,2.6vw,1.25rem);
+  color:var(--fg);margin-bottom:.5rem;white-space:nowrap;font-variant-numeric:tabular-nums}
+.gbarwrap{flex:1;display:flex;align-items:flex-end}
+.gbar{width:100%;height:0;background:linear-gradient(to top,var(--cyan),var(--acid));
+  transition:height 1.2s cubic-bezier(.22,1,.36,1)}
+.gyear{font-size:.8rem;font-weight:700;letter-spacing:.14em;color:var(--mute);
+  margin-top:.6rem;text-align:center}
+.gjump{align-self:center;padding-bottom:clamp(1.4rem,4vw,2.4rem)}
+.gjumpv{font-family:var(--disp);font-weight:800;color:var(--acid);
+  font-size:clamp(2.4rem,9vw,4.4rem);line-height:.9;letter-spacing:-.03em}
+.gjumpl{font-size:.78rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--mute);margin-top:.4rem}
+.ac{color:var(--acid)} .am{color:var(--amber)} .cy{color:var(--cyan)}
+.pk{color:var(--pink)} .vi{color:var(--violet)} .gd{color:var(--gold)}
+
+/* ---------- bars ---------- */
+.bars{display:flex;flex-direction:column;gap:1.15rem;margin-top:1.4rem}
+.bar .top{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;
+  font-size:.9rem;font-weight:700;margin-bottom:.45rem}
+.bar .top .lbl{color:var(--fg);min-width:0}
+.bar .top .val{font-family:var(--disp);font-weight:800;font-variant-numeric:tabular-nums;
+  white-space:nowrap;font-variation-settings:"wdth" 115}
+.bar .track{height:12px;background:var(--panel2);overflow:hidden}
+.bar .fill{height:100%;width:0;transition:width 1.2s cubic-bezier(.22,1,.36,1)}
+.bar .note{font-size:.76rem;color:var(--dim);margin-top:.4rem}
+
+/* ---------- pyramid ---------- */
+.pyr{margin-top:1.6rem;display:flex;flex-direction:column;gap:clamp(1rem,2.4vw,1.5rem)}
+.pyr .row{display:grid;grid-template-columns:1fr;gap:.55rem;align-items:center}
+@media(min-width:760px){.pyr .row{grid-template-columns:minmax(0,290px) minmax(0,1fr);gap:1.6rem}}
+.pyr .track{width:100%;min-width:0;background:var(--panel2);height:clamp(30px,6.4vw,44px)}
+.pyr .shape{height:100%;width:0;min-width:4px;
+  transition:width 1.1s cubic-bezier(.22,1,.36,1)}
+.pyr .meta{min-width:0}
+.pyr .meta .v{font-family:var(--disp);font-weight:800;font-size:clamp(1.15rem,3.6vw,1.7rem);
+  line-height:1.05;font-variation-settings:"wdth" 115;font-variant-numeric:tabular-nums}
+.pyr .meta .l{font-size:.82rem;color:var(--mute);line-height:1.35;margin-top:.2rem}
+
+/* ---------- elevation ---------- */
+.profilebox{margin-top:1.4rem;background:var(--panel);border:1px solid var(--line);
+  padding:clamp(1rem,2.4vw,1.5rem)}
+.profilebox svg{width:100%;height:auto;display:block}
+.pathline{stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset 1.8s ease-out}
+.segs{display:flex;gap:.45rem;margin-bottom:1.1rem;flex-wrap:wrap}
+.seg{background:none;border:1px solid var(--line);color:var(--mute);font:inherit;
+  font-size:.82rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+  padding:.5rem .9rem;cursor:pointer;transition:all .18s}
+.seg[aria-pressed="true"]{background:var(--acid);border-color:var(--acid);color:#0A0C06}
+
+/* ---------- tier selector ---------- */
+.tierhead{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:.8rem;
+  padding-bottom:1rem;border-bottom:1px solid rgba(198,242,78,.25)}
+.tierhead h3{font-size:clamp(1.3rem,3.6vw,1.9rem);text-transform:uppercase}
+.tierprice{font-family:var(--disp);font-weight:800;font-size:clamp(1.5rem,4.4vw,2.2rem);color:var(--gold)}
+.restbody ul{list-style:none;margin:1.2rem 0 0;padding:0;display:grid;grid-template-columns:1fr;gap:.6rem}
+@media(min-width:700px){.restbody ul{grid-template-columns:1fr 1fr;gap:.6rem 1.8rem}}
+.restbody li{font-size:1rem;padding-left:1.7rem;position:relative;color:var(--fg);line-height:1.4}
+.restbody li::before{content:"";position:absolute;left:0;top:.3em;width:1.05em;height:1.05em;
+  background:var(--acid);
+  -webkit-mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M4 12.6 9.4 18 20 6.4' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/></svg>") center/contain no-repeat;
+          mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M4 12.6 9.4 18 20 6.4' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/></svg>") center/contain no-repeat}
+.restbody li.no{color:var(--dim)}
+.restbody li.no::before{background:var(--dim);
+  -webkit-mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M6 6l12 12M18 6 6 18' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round'/></svg>") center/contain no-repeat;
+          mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M6 6l12 12M18 6 6 18' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round'/></svg>") center/contain no-repeat}
+
+/* ---------- tiles ---------- */
+.tiles{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);
+  border:1px solid var(--line);margin-top:1.2rem}
+@media(min-width:620px){.tiles{grid-template-columns:repeat(3,1fr)}}
+@media(min-width:980px){.tiles{grid-template-columns:repeat(6,1fr)}}
+.tiles.w{grid-template-columns:repeat(2,1fr)}
+@media(min-width:820px){.tiles.w{grid-template-columns:repeat(3,1fr)}}
+.tile{background:var(--panel);min-width:0}
+.tile img{width:100%;aspect-ratio:1;object-fit:cover}
+.tiles.w .tile img{aspect-ratio:4/3}
+.tile .cap{padding:.7rem .8rem .9rem}
+.tile .nm{font-size:.88rem;font-weight:700;line-height:1.25}
+.tile .q{font-family:var(--disp);font-weight:800;color:var(--acid);font-size:1rem;margin-top:.22rem}
+
+/* ---------- creators ---------- */
+.reel{overflow:hidden;margin-top:1.5rem;
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);
+          mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.reeltrack{display:flex;gap:clamp(1rem,2.4vw,1.8rem);width:max-content;
+  animation:reel 44s linear infinite}
+.reel:hover .reeltrack{animation-play-state:paused}
+@keyframes reel{to{transform:translateX(-50%)}}
+.cre{width:clamp(108px,15vw,150px);text-align:center;flex:none}
+.cre img{width:100%;aspect-ratio:1;border-radius:50%;object-fit:cover;border:2px solid var(--line)}
+.cre .f{font-family:var(--disp);font-weight:800;color:var(--acid);font-size:clamp(1rem,2.4vw,1.3rem);margin-top:.6rem}
+.cre .r{font-size:.72rem;color:var(--mute);margin-top:.25rem;line-height:1.3}
+
+.tcnote{text-align:center;color:var(--mute);font-size:clamp(.88rem,1.9vw,.98rem);
+  margin:1.1rem auto 0;max-width:46ch;line-height:1.5}
+
+/* ---------- quotes ---------- */
+.quotes{display:grid;gap:clamp(.8rem,1.6vw,1.1rem);grid-template-columns:1fr;margin-top:1.6rem}
+@media(min-width:760px){.quotes{grid-template-columns:1fr 1fr}}
+.quotes.one{grid-template-columns:1fr}
+.q{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--acid);
+  padding:clamp(1.3rem,3vw,1.9rem)}
+.q p{font-size:clamp(1.05rem,2.3vw,1.3rem);line-height:1.4;margin:0;font-weight:500}
+.q cite{display:block;font-style:normal;font-size:.76rem;font-weight:700;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--mute);margin-top:1rem}
+
+/* ---------- logos / films ---------- */
+.logowall{display:flex;flex-wrap:wrap;align-items:center;gap:clamp(1.4rem,4vw,2.8rem);
+  padding:clamp(1.2rem,3vw,1.8rem) 0;border-block:1px solid var(--line);margin-top:1.6rem}
+.logowall img{filter:brightness(0) invert(1);opacity:.7;width:auto}
+.l-f1{height:clamp(22px,3.2vw,32px)} .l-audi{height:clamp(20px,3vw,30px)}
+.l-dakar{height:clamp(38px,5.4vw,54px)} .l-tdf{height:clamp(30px,4.2vw,42px)}
+.mmm{width:clamp(170px,24vw,260px);margin-bottom:1.2rem}
+.films{display:grid;grid-template-columns:1fr;gap:1rem;margin-top:1.4rem}
+@media(min-width:700px){.films{grid-template-columns:1fr 1fr}}
+.film{background:var(--panel);border:1px solid var(--line);text-decoration:none;display:block;
+  transition:border-color .2s}
+.film:hover{border-color:var(--acid)}
+.film img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.film .m{padding:1rem 1.1rem 1.2rem}
+.film .t{font-size:1rem;font-weight:700;line-height:1.3}
+.film .s{display:flex;gap:.8rem;flex-wrap:wrap;font-size:.76rem;font-weight:700;
+  letter-spacing:.11em;text-transform:uppercase;color:var(--acid);margin-top:.55rem}
+
+/* ---------- partner ---------- */
+.partner{display:flex;flex-wrap:wrap;align-items:center;gap:clamp(1.2rem,3.5vw,2.4rem);margin-top:1.5rem}
+.ktlogo{width:clamp(210px,30vw,330px);height:auto;flex:none}
+.bandlogo{margin-top:clamp(1.4rem,3.4vw,2rem)}
+.bandlogo-k{display:block;font-size:.72rem;font-weight:800;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--mute);margin-bottom:.8rem}
+.bandlogo img{width:clamp(220px,32vw,350px);height:auto}
+
+/* ---------- timeline ---------- */
+.tl{margin-top:1.6rem;border-top:1px solid var(--line)}
+.tlrow{display:grid;grid-template-columns:72px 1fr;gap:1rem;padding:1.1rem 0;
+  border-bottom:1px solid var(--line);align-items:baseline}
+@media(min-width:700px){.tlrow{grid-template-columns:130px 1fr;gap:2rem}}
+.tlrow .d{font-family:var(--disp);font-weight:800;color:var(--acid);font-size:clamp(.95rem,2.4vw,1.3rem);
+  font-variation-settings:"wdth" 115}
+.tlrow.done .d{color:var(--dim)}
+.tlrow .t{font-size:1rem;font-weight:700}
+.tlrow .s{font-size:.86rem;color:var(--mute);margin-top:.2rem}
+
+/* ---------- reveal ---------- */
+.rev{opacity:0;transform:translateY(16px);transition:opacity .7s ease,transform .7s cubic-bezier(.22,1,.36,1)}
+.rev.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){
+  .rev{opacity:1;transform:none;transition:none}
+  .reeltrack{animation:none}
+  .bar .fill,.pyr .shape{transition:none}
+  .pathline{transition:none;stroke-dashoffset:0}
+}
+.foot{padding-block:clamp(2.6rem,6vw,4rem);border-top:1px solid var(--line)}
+.contact{display:flex;flex-wrap:wrap;gap:1.2rem 2.6rem;margin-top:1.6rem}
+.contact b{display:block;color:var(--acid);font-size:.7rem;letter-spacing:.16em;
+  text-transform:uppercase;margin-bottom:.25rem}
+.contact span{font-size:1.1rem;font-weight:700}
+</style>
+
+<div id="root">
+  <div class="hero">
+    <div class="bg"><img src="img/hero-w.jpg" alt="The Nandi Epic peloton on the road to Nandi Hills"></div>
+    <div class="wrap"><p class="eyebrow">Title partnership</p><h1>Nandi Epic 2026</h1></div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.3.1/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.3.1/umd/react-dom.production.min.js"></script>
+<script>
+const {
+  useState,
+  useEffect,
+  useRef
+} = React;
+function useInView(opts) {
+  const ref = useRef(null);
+  const [seen, setSeen] = useState(false);
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    if (!("IntersectionObserver" in window)) {
+      setSeen(true);
+      return;
+    }
+    const io = new IntersectionObserver(es => {
+      es.forEach(e => {
+        if (e.isIntersecting) {
+          setSeen(true);
+          io.disconnect();
+        }
+      });
+    }, {
+      rootMargin: "0px 0px -12% 0px",
+      threshold: 0.15,
+      ...(opts || {})
+    });
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
+  return [ref, seen];
+}
+function Reveal({
+  children,
+  className = ""
+}) {
+  const [ref, seen] = useInView();
+  return /*#__PURE__*/React.createElement("div", {
+    ref: ref,
+    className: `rev ${seen ? "in" : ""} ${className}`
+  }, children);
+}
+function Count({
+  to,
+  dur = 1600,
+  suffix = ""
+}) {
+  const [ref, seen] = useInView();
+  const [v, setV] = useState(0);
+  useEffect(() => {
+    if (!seen) return;
+    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      setV(to);
+      return;
+    }
+    let raf, t0;
+    const step = t => {
+      if (!t0) t0 = t;
+      const p = Math.min(1, (t - t0) / dur);
+      setV(to * (1 - Math.pow(1 - p, 3)));
+      if (p < 1) raf = requestAnimationFrame(step);
+    };
+    raf = requestAnimationFrame(step);
+    return () => cancelAnimationFrame(raf);
+  }, [seen, to, dur]);
+  return /*#__PURE__*/React.createElement("span", {
+    ref: ref
+  }, Math.round(v).toLocaleString("en-IN"), suffix);
+}
+function Pic({
+  name,
+  alt
+}) {
+  return /*#__PURE__*/React.createElement("div", {
+    className: "bg"
+  }, /*#__PURE__*/React.createElement("picture", null, /*#__PURE__*/React.createElement("source", {
+    media: "(max-width: 700px)",
+    srcSet: `img/${name}-t.jpg`
+  }), /*#__PURE__*/React.createElement("img", {
+    src: `img/${name}-w.jpg`,
+    alt: alt
+  })));
+}
+const ROUTES = [{
+  id: "n73",
+  label: "Nandi 7.3",
+  gain: "500 m",
+  pk: "1,478 m summit",
+  kom: true,
+  desc: "Amateur category. A pure climb \u2014 the gate to the summit, nothing else. Pitches to 10%.",
+  d: "M0,264 L120,254 L240,238 L360,224 L480,200 L600,170 L720,136 L840,92 L960,44",
+  peak: 44
+}, {
+  id: "50",
+  label: "50 km",
+  gain: "320 m",
+  pk: "Foothills",
+  kom: false,
+  desc: "Timed and ranked. The first real race.",
+  d: "M0,252 L120,248 L240,254 L360,242 L480,248 L600,232 L700,214 L800,186 L880,160 L960,138",
+  peak: 138
+}, {
+  id: "100",
+  label: "100 km",
+  gain: "500 m in the last 10 km",
+  pk: "1,478 m summit",
+  kom: true,
+  desc: "National champions and international athletes. The full road.",
+  d: "M0,250 L100,254 L200,244 L300,256 L400,246 L500,252 L600,240 L700,254 L800,230 L860,196 L900,150 L930,104 L960,44",
+  peak: 44
+}];
+const SLOTS = [{
+  id: "title",
+  name: "Title",
+  price: "\u20b910,00,000",
+  slots: "1 slot",
+  tag: "Race naming rights",
+  badge: "Most visible",
+  get: ["The race carries your name", "Your logo on every rider and crew shirt", "Start arch and finish arch", "Summit podium backdrop", "You present the trophy", "Roadside branding to the summit", "Expo stall on 19 November", "KYP tech-park activations", "YouTube live-stream branding", "Named in the documentary", "Full creator campaign", "Opt-in rider data"]
+}, {
+  id: "summit",
+  name: "Summit",
+  price: "\u20b95,00,000",
+  slots: "2 slots",
+  tag: "Top of the climb",
+  get: ["Logo on rider and crew kit", "Finish arch", "Summit podium backdrop", "Roadside branding", "Expo stall on 19 November", "KYP tech-park activations", "Live-stream branding", "Creator campaign"]
+}, {
+  id: "assoc",
+  name: "Associate",
+  price: "By proposal",
+  slots: "Open",
+  tag: "Build your own",
+  get: ["Choose your own assets", "A single kit item", "Feed zone or recovery zone", "Expo stall", "Roadside branding", "Creator campaign"]
+}, {
+  id: "rb",
+  name: "Hydration \u00b7 KOM \u00b7 QOM",
+  price: "SOLD",
+  slots: "Red Bull",
+  tag: "Energy category closed",
+  sold: true
+}];
+const CREATORS = [["c-mmm", "558K", "Man Made Machine"], ["c-mtb-f", "49.3K", "National MTB racer"], ["c-moto", "40.3K", "MTB & motocross"], ["c-films", "16K", "Motorsport entrepreneur"], ["c-founder", "9,615", "Ironman athlete"], ["c-champ", "5,745", "National champion"], ["c-india", "5,443", "Team India athlete"]];
+const PLACE = [["place-startarch", "Start arch", "First thing a thousand riders ride under"], ["place-finisharch", "Finish arch", "The summit shot, every year"], ["place-podium", "Podium backdrop", "Behind every winner photograph"], ["place-kom", "KOM banner", "Over the road on the hardest kilometre"], ["place-kit", "Rider kit", "Every shirt, cap, bottle and bag"], ["place-expo", "Expo stall", "The whole field, the day before"], ["kit-jersey", "Team shirt", "Worn on the road, and long after"], ["kit-tshirt", "Sponsor shirt", "Into every finisher's wardrobe"], ["kit-cap", "Cycling cap", "On the podium, in every photograph"], ["kit-tote", "Tote bag", "Leaves the expo and keeps going"], ["kit-bottle", "Sipper bottle", "In the cage for the whole climb"], ["kit-medal", "Finisher medal", "Photographed by everyone who finishes"], ["convoy-w", "Roadside and convoy", "The length of the closed road"], ["kyp-3", "KYP tech parks", "Know Your Power, inside Bengaluru's offices"]];
+const PARTNERS = [["p-redbull", "Red Bull"], ["p-bots", "Bums on the Saddle"], ["p-steadfast", "Steadfast Nutrition"], ["p-sparsh", "Sparsh Hospital"], ["p-spectrum", "Spectrum Physio"], ["p-pse", "Promise Sports & Entertainment"], [null, "The Whole Truth"], [null, "Tour of Nilgiris"]];
+const NAV = [["climb", "The climb"], ["market", "The market"], ["growth", "Growth"], ["proof", "Proof"], ["reach", "Reach"], ["assets", "Assets"], ["slots", "Slots"]];
+
+/* ---------- market pyramid: premium concentration ---------- */
+function Pyramid() {
+  const [ref, seen] = useInView();
+  const rows = [{
+    w: 100,
+    c: "var(--cyan)",
+    v: "10.67 million",
+    l: "Bicycles sold in India a year \u00b7 FY2023-24"
+  }, {
+    w: 50,
+    c: "var(--violet)",
+    v: "50.4%",
+    l: "Of households own one \u00b7 NFHS-5, 2019-21"
+  }, {
+    w: 4,
+    c: "var(--acid)",
+    v: "This is who races",
+    l: "Premium road riders \u00b7 and Bengaluru has the most of them"
+  }];
+  return /*#__PURE__*/React.createElement("div", {
+    className: "pyr",
+    ref: ref
+  }, rows.map((r, i) => /*#__PURE__*/React.createElement("div", {
+    className: "row",
+    key: i
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "meta"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "v",
+    style: {
+      color: r.c
+    }
+  }, r.v), /*#__PURE__*/React.createElement("div", {
+    className: "l"
+  }, r.l)), /*#__PURE__*/React.createElement("div", {
+    className: "track"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "shape",
+    style: {
+      width: seen ? r.w + "%" : 0,
+      background: r.c,
+      transitionDelay: i * 140 + "ms"
+    }
+  })))));
+}
+
+/* ---------- growth chart ---------- */
+function GrowthChart() {
+  const [ref, seen] = useInView();
+  const bars = [{
+    y: "2023",
+    v: 2065,
+    h: 84
+  }, {
+    y: "2024",
+    v: 2461,
+    h: 100
+  }];
+  return /*#__PURE__*/React.createElement("div", {
+    className: "gchart",
+    ref: ref
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "gcols"
+  }, bars.map((b, i) => /*#__PURE__*/React.createElement("div", {
+    className: "gcol",
+    key: i
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "gval"
+  }, "\u20b9" + b.v.toLocaleString("en-IN"), " cr"), /*#__PURE__*/React.createElement("div", {
+    className: "gbarwrap"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "gbar",
+    style: {
+      height: seen ? b.h + "%" : "0%",
+      transitionDelay: i * 180 + "ms"
+    }
+  })), /*#__PURE__*/React.createElement("div", {
+    className: "gyear"
+  }, b.y))), /*#__PURE__*/React.createElement("div", {
+    className: "gjump"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "gjumpv"
+  }, "+19%"), /*#__PURE__*/React.createElement("div", {
+    className: "gjumpl"
+  }, "In one year"))), /*#__PURE__*/React.createElement("p", {
+    className: "src"
+  }, "India\u2019s growth-sport sponsorship market \xB7 GroupM ESP, Sporting Nation, April 2025."));
+}
+
+/* ---------- placements: grid on desktop, swipe carousel on a phone ---------- */
+function Placements() {
+  const ref = useRef(null);
+  const [i, setI] = useState(0);
+  const go = n => {
+    const el = ref.current;
+    if (!el) return;
+    const k = Math.max(0, Math.min(PLACE.length - 1, n));
+    el.scrollTo({
+      left: k * el.clientWidth,
+      behavior: "smooth"
+    });
+    setI(k);
+  };
+  const onScroll = () => {
+    const el = ref.current;
+    if (!el) return;
+    setI(Math.round(el.scrollLeft / (el.clientWidth || 1)));
+  };
+  return /*#__PURE__*/React.createElement("div", {
+    className: "places"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "carhead"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "carlbl"
+  }, "Where your logo lands"), /*#__PURE__*/React.createElement("div", {
+    className: "carcount"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "cm"
+  }, i + 1, " / ", PLACE.length), /*#__PURE__*/React.createElement("span", {
+    className: "cd"
+  }, PLACE.length, " surfaces"))), /*#__PURE__*/React.createElement("div", {
+    className: "carstage"
+  }, /*#__PURE__*/React.createElement("button", {
+    className: "carbtn prev",
+    onClick: () => go(i - 1),
+    "aria-label": "Previous"
+  }, "\u2039"), /*#__PURE__*/React.createElement("button", {
+    className: "carbtn next",
+    onClick: () => go(i + 1),
+    "aria-label": "Next"
+  }, "\u203A"), /*#__PURE__*/React.createElement("div", {
+    className: "cartrack",
+    ref: ref,
+    onScroll: onScroll
+  }, PLACE.map(([img, t, sub]) => /*#__PURE__*/React.createElement("figure", {
+    className: "carslide",
+    key: img
+  }, /*#__PURE__*/React.createElement("img", {
+    src: `img/${img}.jpg`,
+    alt: t,
+    loading: "lazy"
+  }), /*#__PURE__*/React.createElement("span", {
+    className: "carmark"
+  }, "Your logo here"), /*#__PURE__*/React.createElement("figcaption", null, /*#__PURE__*/React.createElement("strong", null, t), /*#__PURE__*/React.createElement("span", null, sub)))))), /*#__PURE__*/React.createElement("div", {
+    className: "cardots"
+  }, PLACE.map((_, k) => /*#__PURE__*/React.createElement("button", {
+    key: k,
+    className: `cardot ${k === i ? "on" : ""}`,
+    onClick: () => go(k),
+    "aria-label": `Slide ${k + 1}`
+  }))));
+}
+
+/* ---------- slot board ---------- */
+function Slots() {
+  const title = SLOTS[0],
+    rest = SLOTS.slice(1, 3),
+    sold = SLOTS[3];
+  const [id, setId] = useState("summit");
+  const t = rest.find(x => x.id === id) || rest[0];
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    className: "titlecard"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "tcbadge"
+  }, "The big one"), /*#__PURE__*/React.createElement("div", {
+    className: "tctop"
+  }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    className: "tclabel"
+  }, "Title sponsor"), /*#__PURE__*/React.createElement("div", {
+    className: "tcname"
+  }, "The race carries your name")), /*#__PURE__*/React.createElement("div", {
+    className: "tcprice"
+  }, title.price, /*#__PURE__*/React.createElement("span", null, "1 slot"))), /*#__PURE__*/React.createElement("ul", {
+    className: "tclist"
+  }, title.get.map((g, i) => /*#__PURE__*/React.createElement("li", {
+    key: i
+  }, g)))), /*#__PURE__*/React.createElement("p", {
+    className: "tcnote"
+  }, "Your logo lands on all ", PLACE.length, " surfaces shown above \u2014 kit, arches, podium, roadside and expo."), /*#__PURE__*/React.createElement("div", {
+    className: "restgrid"
+  }, rest.map(x => /*#__PURE__*/React.createElement("button", {
+    key: x.id,
+    className: "resttab",
+    "aria-pressed": x.id === id,
+    onClick: () => setId(x.id)
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "rn"
+  }, x.name), /*#__PURE__*/React.createElement("span", {
+    className: "rp"
+  }, x.price), /*#__PURE__*/React.createElement("span", {
+    className: "rs"
+  }, x.slots, " \xB7 ", x.tag)))), /*#__PURE__*/React.createElement("div", {
+    className: "restbody"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "tierhead"
+  }, /*#__PURE__*/React.createElement("h3", null, t.name), /*#__PURE__*/React.createElement("div", {
+    className: "tierprice"
+  }, t.price)), /*#__PURE__*/React.createElement("ul", null, t.get.map((g, i) => /*#__PURE__*/React.createElement("li", {
+    key: i
+  }, g)), (t.no || []).map((g, i) => /*#__PURE__*/React.createElement("li", {
+    className: "no",
+    key: "n" + i
+  }, g)))), /*#__PURE__*/React.createElement("div", {
+    className: "soldstrip"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "sn"
+  }, sold.name), /*#__PURE__*/React.createElement("span", {
+    className: "sold-right"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "sv"
+  }, "Sold"), /*#__PURE__*/React.createElement("span", {
+    className: "qlogo rb tiny"
+  }, /*#__PURE__*/React.createElement("img", {
+    src: "img/logo-redbull.png",
+    alt: "Red Bull"
+  })))));
+}
+
+/* ---------- elevation ---------- */
+function Elevation() {
+  const [n, setN] = useState(2);
+  const [ref, seen] = useInView();
+  const r = ROUTES[n];
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    className: "segs"
+  }, ROUTES.map((x, j) => /*#__PURE__*/React.createElement("button", {
+    key: x.id,
+    className: "seg",
+    "aria-pressed": j === n,
+    onClick: () => setN(j)
+  }, x.label))), /*#__PURE__*/React.createElement("div", {
+    className: "profilebox",
+    ref: ref
+  }, /*#__PURE__*/React.createElement("svg", {
+    viewBox: "0 0 960 300",
+    role: "img",
+    "aria-label": `Elevation profile for the ${r.label} route`
+  }, /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "g1",
+    x1: "0",
+    y1: "0",
+    x2: "0",
+    y2: "1"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: "0%",
+    stopColor: "#C6F24E",
+    stopOpacity: ".28"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "100%",
+    stopColor: "#C6F24E",
+    stopOpacity: "0"
+  }))), /*#__PURE__*/React.createElement("line", {
+    x1: "0",
+    y1: "268",
+    x2: "960",
+    y2: "268",
+    stroke: "#1E2628"
+  }), r.kom && /*#__PURE__*/React.createElement("rect", {
+    x: "845",
+    y: "10",
+    width: "115",
+    height: "258",
+    fill: "#C6F24E",
+    opacity: ".06"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: `${r.d} L960,268 L0,268 Z`,
+    fill: "url(#g1)",
+    opacity: seen ? 1 : 0,
+    style: {
+      transition: "opacity .9s"
+    }
+  }), /*#__PURE__*/React.createElement("path", {
+    d: r.d,
+    fill: "none",
+    stroke: "#C6F24E",
+    strokeWidth: "3",
+    strokeLinejoin: "round",
+    style: {
+      strokeDasharray: 2000,
+      strokeDashoffset: seen ? 0 : 2000,
+      transition: "stroke-dashoffset 1.8s ease-out"
+    }
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: "960",
+    cy: r.peak,
+    r: "6",
+    fill: "#C6F24E",
+    opacity: seen ? 1 : 0,
+    style: {
+      transition: "opacity .5s 1.4s"
+    }
+  }), r.kom && /*#__PURE__*/React.createElement("text", {
+    x: "852",
+    y: "288",
+    fill: "#C6F24E",
+    fontSize: "15",
+    fontWeight: "700",
+    fontFamily: "Helvetica,Arial"
+  }, "KOM"), /*#__PURE__*/React.createElement("text", {
+    x: "4",
+    y: "288",
+    fill: "#55605F",
+    fontSize: "15",
+    fontFamily: "Helvetica,Arial"
+  }, "START"), /*#__PURE__*/React.createElement("text", {
+    x: "956",
+    y: "288",
+    fill: "#55605F",
+    fontSize: "15",
+    textAnchor: "end",
+    fontFamily: "Helvetica,Arial"
+  }, "SUMMIT")), /*#__PURE__*/React.createElement("div", {
+    className: "grid",
+    style: {
+      marginTop: "1.1rem",
+      gridTemplateColumns: "repeat(2,1fr)"
+    }
+  }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    className: "k"
+  }, "Elevation gained"), /*#__PURE__*/React.createElement("div", {
+    className: "num ac",
+    style: {
+      fontSize: "1.4rem",
+      marginTop: ".35rem"
+    }
+  }, r.gain)), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    className: "k"
+  }, "Finish"), /*#__PURE__*/React.createElement("div", {
+    className: "num",
+    style: {
+      fontSize: "1.4rem",
+      marginTop: ".35rem"
+    }
+  }, r.pk))), /*#__PURE__*/React.createElement("p", {
+    className: "src"
+  }, r.desc)));
+}
+
+/* ---------- nav ---------- */
+function TopBar() {
+  const [act, setAct] = useState("climb");
+  const [p, setP] = useState(0);
+  useEffect(() => {
+    const onScroll = () => {
+      const h = document.documentElement;
+      setP(Math.min(100, h.scrollTop / (h.scrollHeight - h.clientHeight || 1) * 100));
+      let cur = NAV[0][0];
+      for (const [id] of NAV) {
+        const el = document.getElementById(id);
+        if (el && el.getBoundingClientRect().top <= 140) cur = id;
+      }
+      setAct(cur);
+    };
+    onScroll();
+    window.addEventListener("scroll", onScroll, {
+      passive: true
+    });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+  const go = id => {
+    const el = document.getElementById(id);
+    if (el) el.scrollIntoView({
+      behavior: "smooth",
+      block: "start"
+    });
+  };
+  return /*#__PURE__*/React.createElement("div", {
+    className: "topbar"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "wrap"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "inner"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "brand"
+  }, "Nandi Epic 26"), /*#__PURE__*/React.createElement("div", {
+    className: "navchips"
+  }, NAV.map(([id, l]) => /*#__PURE__*/React.createElement("button", {
+    key: id,
+    className: "chip",
+    "aria-current": act === id,
+    onClick: () => go(id)
+  }, l))))), /*#__PURE__*/React.createElement("div", {
+    className: "progress",
+    style: {
+      width: p + "%"
+    }
+  }));
+}
+function App() {
+  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", {
+    className: "hero"
+  }, /*#__PURE__*/React.createElement(Pic, {
+    name: "hero",
+    alt: "The Nandi Epic peloton on the road to Nandi Hills"
+  }), /*#__PURE__*/React.createElement("img", {
+    className: "herologo",
+    src: "img/logo-bbch.png",
+    alt: "BBCh.in \u2014 live to race"
+  }), /*#__PURE__*/React.createElement("img", {
+    className: "nandimark",
+    src: "img/logo-nandi.png",
+    alt: "Nandi Epic"
+  }), /*#__PURE__*/React.createElement("div", {
+    className: "wrap"
+  }, /*#__PURE__*/React.createElement("p", {
+    className: "eyebrow"
+  }, "Title partnership \xB7 Friday 20 November 2026"), /*#__PURE__*/React.createElement("h1", null, "Nandi Epic 2026"), /*#__PURE__*/React.createElement("div", {
+    className: "herostats"
+  }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    className: "v ac"
+  }, "1,478 m"), /*#__PURE__*/React.createElement("div", {
+    className: "k"
+  }, "Summit finish")), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    className: "v"
+  }, "17"), /*#__PURE__*/React.createElement("div", {
+    className: "k"
+  }, "Seasons unbroken")), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    className: "v"
+  }, "7.3\xB750\xB7100"), /*#__PURE__*/React.createElement("div", {
+    className: "k"
+  }, "Kilometres"))))), /*#__PURE__*/React.createElement(TopBar, null), /*#__PURE__*/React.createElement("section", {
+    id: "climb"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "wrap"
+  }, /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement("p", {
+    className: "eyebrow"
+  }, "The product"), /*#__PURE__*/React.createElement("h2", null, "One road.", /*#__PURE__*/React.createElement("br", null), "One morning a year."), /*#__PURE__*/React.createElement("p", {
+    className: "lede"
+  }, "A pure climb to 1,478 m. Three categories, one summit, one finish line.")), /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement(Elevation, null)), /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement("div", {
+    className: "grid",
+    style: {
+      marginTop: "1.1rem"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "panel"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "k"
+  }, "Summit altitude"), /*#__PURE__*/React.createElement("div", {
+    className: "num big ac"
+  }, /*#__PURE__*/React.createElement(Count, {
+    to: 1478
+  }), " m")), /*#__PURE__*/React.createElement("div", {
+    className: "panel"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "k"
+  }, "Gradient, up to"), /*#__PURE__*/React.createElement("div", {
+    className: "num big"
+  }, /*#__PURE__*/React.createElement(Count, {
+    to: 10
+  }), "%")), /*#__PURE__*/React.createElement("div", {
+    className: "panel"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "k"
+  }, "Road closed until"), /*#__PURE__*/React.createElement("div", {
+    className: "num big"
+  }, "10:00")), /*#__PURE__*/React.createElement("div", {
+    className: "panel"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "k"
+  }, "Categories"), /*#__PURE__*/React.createElement("div", {
+    className: "num big"
+  }, "3")))))), /*#__PURE__*/React.createElement("div", {
+    className: "band"
+  }, /*#__PURE__*/React.createElement(Pic, {
+    name: "climb",
+    alt: "Riders climbing the Nandi Hills switchbacks"
+  }), /*#__PURE__*/React.createElement("div", {
+    className: "wrap"
+  }, /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement("h2", null, "Nobody else", /*#__PURE__*/React.createElement("br", null), "races this road"), /*#__PURE__*/React.createElement("p", {
+    className: "lede"
+  }, "Full traffic control on race morning, granted by the state."), /*#__PURE__*/React.createElement("div", {
+    className: "bandlogo"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "bandlogo-k"
+  }, "In partnership with"), /*#__PURE__*/React.createElement("img", {
+    src: "img/karnataka-tourism.png",
+    alt: "Government of Karnataka, Department of Tourism"
+  }))))), /*#__PURE__*/React.createElement("section", {
+    id: "market"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "wrap"
+  }, /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement("p", {
+    className: "eyebrow"
+  }, "The market"), /*#__PURE__*/React.createElement("h2", null, "India rides.", /*#__PURE__*/React.createElement("br", null), "Bengaluru races."), /*#__PURE__*/React.createElement("p", {
+    className: "lede"
+  }, "The riders on this start line sit at the very top of India's cycling market \u2014 and they are concentrated in one city.")), /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement(Pyramid, null)), /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement("p", {
+    className: "src"
+  }, "Sources \xB7 Association-reported FY2023-24 sales via Ken Research \xB7 NFHS-5 (2019-21), reported by PTI.")), /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement("div", {
+    className: "grid",
+    style: {
+      marginTop: "1.8rem"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "panel span2",
+    style: {
+      borderColor: "var(--cyan)"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "k cy"
+  }, "The cycling capital"), /*#__PURE__*/React.createElement("div", {
+    className: "num big sm cy"
+  }, "Bengaluru"), /*#__PURE__*/React.createElement("p", {
+    className: "src",
+    style: {
+      fontSize: ".95rem",
+      color: "var(--mute)"
+    }
+  }, "Nandi Hills is the city's home climb, ridden by its clubs and group rides every weekend of the year. This race is its championship.")), /*#__PURE__*/React.createElement("div", {
+    className: "panel span2"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "k"
+  }, "The field"), /*#__PURE__*/React.createElement("div", {
+    className: "num big sm am"
+  }, "Race with India's best"), /*#__PURE__*/React.createElement("p", {
+    className: "src",
+    style: {
+      fontSize: ".95rem",
+      color: "var(--mute)"
+    }
+  }, "National champions and international athletes line up on the same road \u2014 riders from Europe, the Middle East, the USA and South Asia.")))))), /*#__PURE__*/React.createElement("section", {
+    id: "growth",
+    style: {
+      background: "var(--panel2)"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "wrap"
+  }, /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement("p", {
+    className: "eyebrow"
+  }, "The opportunity"), /*#__PURE__*/React.createElement("h2", null, "Cycling is the", /*#__PURE__*/React.createElement("br", null), "next cricket."), /*#__PURE__*/React.createElement("p", {
+    className: "lede"
+  }, "Endurance sport is the fastest-growing sponsorship market in India. Cycling is the part of it nobody has claimed yet.")), /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement(GrowthChart, null)), /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement("div", {
+    className: "grid",
+    style: {
+      marginTop: "1.8rem"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "panel"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "k"
+  }, "Growth-sport sponsorship"), /*#__PURE__*/React.createElement("div", {
+    className: "num big ac"
+  }, "+19%")), /*#__PURE__*/React.createElement("div", {
+    className: "panel"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "k"
+  }, "Premium bicycles"), /*#__PURE__*/React.createElement("div", {
+    className: "num big am"
+  }, "+15%")), /*#__PURE__*/React.createElement("div", {
+    className: "panel"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "k"
+  }, "Strava cycling clubs"), /*#__PURE__*/React.createElement("div", {
+    className: "num big cy"
+  }, "2.8\xD7")), /*#__PURE__*/React.createElement("div", {
+    className: "panel"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "k"
+  }, "Road events in India"), /*#__PURE__*/React.createElement("div", {
+    className: "num big vi"
+  }, "20+")))), /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement("div", {
+    className: "grid",
+    style: {
+      marginTop: "1.1rem"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "panel span4",
+    style: {
+      borderColor: "var(--acid)",
+      background: "#10160A"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "k ac"
+  }, "Road cycling"), /*#__PURE__*/React.createElement("div", {
+    className: "num big sm ac"
+  }, "Own the category"), /*#__PURE__*/React.createElement("p", {
+    className: "src"
+  }, "One title slot, on India's longest-running road racing championship.")))))), /*#__PURE__*/React.createElement("div", {
+    className: "band"
+  }, /*#__PURE__*/React.createElement(Pic, {
+    name: "peloton",
+    alt: "The Nandi Epic peloton at full width across the road"
+  }), /*#__PURE__*/React.createElement("div", {
+    className: "wrap"
+  }, /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement("h2", null, "Seventeen", /*#__PURE__*/React.createElement("br", null), "seasons deep")))), /*#__PURE__*/React.createElement("section", {
+    id: "proof"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "wrap"
+  }, /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement("p", {
+    className: "eyebrow"
+  }, "Proof"), /*#__PURE__*/React.createElement("h2", null, "Every number here", /*#__PURE__*/React.createElement("br", null), "is checkable")), /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement("div", {
+    className: "grid",
+    style: {
+      marginTop: "1.6rem"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "panel"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "k"
+  }, "Seasons since 2009"), /*#__PURE__*/React.createElement("div", {
+    className: "num big xl ac"
+  }, /*#__PURE__*/React.createElement(Count, {
+    to: 17
+  }))), /*#__PURE__*/React.createElement("div", {
+    className: "panel"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "k"
+  }, "Riders on record"), /*#__PURE__*/React.createElement("div", {
+    className: "num big xl"
+  }, /*#__PURE__*/React.createElement(Count, {
+    to: 2826
+  }))), /*#__PURE__*/React.createElement("div", {
+    className: "panel"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "k"
+  }, "Events scored"), /*#__PURE__*/React.createElement("div", {
+    className: "num big xl"
+  }, /*#__PURE__*/React.createElement(Count, {
+    to: 85
+  }))), /*#__PURE__*/React.createElement("div", {
+    className: "panel"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "k"
+  }, "Results published"), /*#__PURE__*/React.createElement("div", {
+    className: "num big xl"
+  }, /*#__PURE__*/React.createElement(Count, {
+    to: 7266
+  }))))), /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement("div", {
+    className: "quotes one"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "q"
+  }, /*#__PURE__*/React.createElement("p", null, "\u201CThe oldest racing community in India.\u201D"), /*#__PURE__*/React.createElement("cite", null, "Red Bull India, on BBCh")))))), /*#__PURE__*/React.createElement("section", {
+    id: "reach",
+    style: {
+      background: "var(--panel2)"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "wrap"
+  }, /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement("p", {
+    className: "eyebrow"
+  }, "Reach"), /*#__PURE__*/React.createElement("h2", null, "Reach of BBCh")), /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement("div", {
+    className: "grid",
+    style: {
+      marginTop: "1.6rem"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "panel span2"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "k"
+  }, "Our own channels"), /*#__PURE__*/React.createElement("div", {
+    className: "num big xl ac"
+  }, "45.2", /*#__PURE__*/React.createElement("span", {
+    className: "unit"
+  }, "K"))), /*#__PURE__*/React.createElement("div", {
+    className: "panel span2"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "k"
+  }, "Creator network"), /*#__PURE__*/React.createElement("div", {
+    className: "num big xl cy"
+  }, "711", /*#__PURE__*/React.createElement("span", {
+    className: "unit"
+  }, "K"))), /*#__PURE__*/React.createElement("div", {
+    className: "panel span2"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "k"
+  }, "Campaign reach, projected"), /*#__PURE__*/React.createElement("div", {
+    className: "num big xl"
+  }, "100", /*#__PURE__*/React.createElement("span", {
+    className: "unit"
+  }, "M+"))), /*#__PURE__*/React.createElement("div", {
+    className: "panel span2"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "k"
+  }, "On the ground, race day"), /*#__PURE__*/React.createElement("div", {
+    className: "num big xl am"
+  }, "5,000", /*#__PURE__*/React.createElement("span", {
+    className: "unit"
+  }, "+"))))), /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement("p", {
+    className: "lede"
+  }, "The community of endurance creators we have will spread the word like fire."), /*#__PURE__*/React.createElement("div", {
+    className: "reel"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "reeltrack"
+  }, [0, 1].map(dup => CREATORS.map(([img, f, r], i) => /*#__PURE__*/React.createElement("div", {
+    className: "cre",
+    key: dup + "-" + i,
+    "aria-hidden": dup === 1
+  }, /*#__PURE__*/React.createElement("img", {
+    src: `img/${img}.jpg`,
+    alt: dup ? "" : r,
+    loading: "lazy"
+  }), /*#__PURE__*/React.createElement("div", {
+    className: "f"
+  }, f), /*#__PURE__*/React.createElement("div", {
+    className: "r"
+  }, r))))))))), /*#__PURE__*/React.createElement("div", {
+    className: "band"
+  }, /*#__PURE__*/React.createElement(Pic, {
+    name: "podium",
+    alt: "The Nandi Epic podium with the BBCh sponsor backdrop"
+  }), /*#__PURE__*/React.createElement("div", {
+    className: "wrap"
+  }, /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement("p", {
+    className: "eyebrow"
+  }, "Already proven"), /*#__PURE__*/React.createElement("h2", null, "Brands have", /*#__PURE__*/React.createElement("br", null), "stood here before"), /*#__PURE__*/React.createElement("p", {
+    className: "lede"
+  }, "Seventeen years of sponsors on that backdrop. Yours is the next one.")))), /*#__PURE__*/React.createElement("section", {
+    className: "sec-tight"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "wrap"
+  }, /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement("p", {
+    className: "eyebrow"
+  }, "Previous collaborations"), /*#__PURE__*/React.createElement("h2", null, "Brands already", /*#__PURE__*/React.createElement("br", null), "on this start line"), /*#__PURE__*/React.createElement("div", {
+    className: "pwall"
+  }, PARTNERS.map(([i, n]) => /*#__PURE__*/React.createElement("div", {
+    className: i ? "pchip" : "pchip txt",
+    key: n,
+    title: n
+  }, i ? /*#__PURE__*/React.createElement("img", {
+    src: `img/${i}.png`,
+    alt: n,
+    loading: "lazy"
+  }) : /*#__PURE__*/React.createElement("span", null, n))))))), /*#__PURE__*/React.createElement("section", {
+    className: "sec-tight"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "wrap"
+  }, /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement("div", {
+    className: "grid"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "panel span2",
+    style: {
+      padding: 0,
+      overflow: "hidden"
+    }
+  }, /*#__PURE__*/React.createElement("img", {
+    src: "img/redbull-arch.jpg",
+    alt: "The Red Bull arch at a BBCh race start",
+    loading: "lazy",
+    style: {
+      width: "100%",
+      aspectRatio: "16/10",
+      objectFit: "cover"
+    }
+  }), /*#__PURE__*/React.createElement("div", {
+    style: {
+      padding: "1.4rem"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "qlogo rb"
+  }, /*#__PURE__*/React.createElement("img", {
+    src: "img/logo-redbull.png",
+    alt: "Red Bull"
+  })), /*#__PURE__*/React.createElement("div", {
+    className: "k ac"
+  }, "Secured"), /*#__PURE__*/React.createElement("h3", {
+    style: {
+      marginTop: ".5rem"
+    }
+  }, "Red Bull holds hydration, KOM and QOM"), /*#__PURE__*/React.createElement("p", {
+    className: "src"
+  }, "Three segments are already sold. The title is not."))), /*#__PURE__*/React.createElement("div", {
+    className: "panel span4"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "k ac"
+  }, "Secured"), /*#__PURE__*/React.createElement("h3", {
+    style: {
+      marginTop: ".4rem"
+    }
+  }, "Live on YouTube"), /*#__PURE__*/React.createElement("p", {
+    className: "src"
+  }, "Start line to summit, streamed live and free to watch. Your branding sits in the broadcast frame, and again in the documentary that follows.")), /*#__PURE__*/React.createElement("div", {
+    className: "panel span2"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "k ac"
+  }, "Official backing"), /*#__PURE__*/React.createElement("div", {
+    className: "partner"
+  }, /*#__PURE__*/React.createElement("img", {
+    className: "ktlogo",
+    src: "img/karnataka-tourism.png",
+    alt: "Government of Karnataka, Department of Tourism"
+  }), /*#__PURE__*/React.createElement("div", {
+    style: {
+      flex: "1 1 200px",
+      minWidth: 0
+    }
+  }, /*#__PURE__*/React.createElement("h3", null, "Karnataka Tourism"), /*#__PURE__*/React.createElement("p", {
+    className: "src",
+    style: {
+      fontSize: ".95rem",
+      color: "var(--mute)"
+    }
+  }, "Full traffic control on race morning, granted by the state. The road to the summit closes until 10:00.")))))))), /*#__PURE__*/React.createElement("section", null, /*#__PURE__*/React.createElement("div", {
+    className: "wrap"
+  }, /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement("img", {
+    className: "mmm",
+    src: "img/logo-mmm.png",
+    alt: "Man Made Machine"
+  }), /*#__PURE__*/React.createElement("p", {
+    className: "eyebrow"
+  }, "Who shoots it"), /*#__PURE__*/React.createElement("h2", null, "Filmed by the people", /*#__PURE__*/React.createElement("br", null), "who shoot F1")), /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement("div", {
+    className: "logowall"
+  }, /*#__PURE__*/React.createElement("img", {
+    className: "l-f1",
+    src: "img/logo-f1.png",
+    alt: "Formula 1"
+  }), /*#__PURE__*/React.createElement("img", {
+    className: "l-audi",
+    src: "img/logo-audi.png",
+    alt: "Audi"
+  }), /*#__PURE__*/React.createElement("img", {
+    className: "l-dakar",
+    src: "img/logo-dakar.png",
+    alt: "Dakar Rally"
+  }), /*#__PURE__*/React.createElement("img", {
+    className: "l-tdf",
+    src: "img/logo-tdf.png",
+    alt: "Tour de France"
+  }))), /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement("div", {
+    className: "tiles w",
+    style: {
+      marginTop: "1.2rem"
+    }
+  }, [["ankit-f1", "Formula 1"], ["ankit-audi", "Automotive"], ["ankit-mtb2", "Endurance"], ["ankit-javelin", "Athletics"]].map(([i, l]) => /*#__PURE__*/React.createElement("figure", {
+    className: "tile",
+    key: i,
+    style: {
+      margin: 0
+    }
+  }, /*#__PURE__*/React.createElement("img", {
+    src: `img/${i}.jpg`,
+    alt: l,
+    loading: "lazy"
+  }), /*#__PURE__*/React.createElement("figcaption", {
+    className: "cap"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "nm"
+  }, l)))))), /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement("h3", {
+    style: {
+      marginTop: "2.4rem"
+    }
+  }, "Live on YouTube. Then a film."), /*#__PURE__*/React.createElement("div", {
+    className: "films"
+  }, /*#__PURE__*/React.createElement("a", {
+    className: "film",
+    href: "https://www.youtube.com/watch?v=c-qHvu6qINw",
+    target: "_blank",
+    rel: "noopener"
+  }, /*#__PURE__*/React.createElement("img", {
+    src: "img/doc-sea-to-sky.jpg",
+    alt: "Sea to the Sky, Tour of Nilgiris 2025 documentary",
+    loading: "lazy"
+  }), /*#__PURE__*/React.createElement("div", {
+    className: "m"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "t"
+  }, "Sea to the Sky \u2014 Tour of Nilgiris 2025"), /*#__PURE__*/React.createElement("div", {
+    className: "s"
+  }, /*#__PURE__*/React.createElement("span", null, "34 min"), /*#__PURE__*/React.createElement("span", null, "4K"), /*#__PURE__*/React.createElement("span", null, "Watch")))), /*#__PURE__*/React.createElement("a", {
+    className: "film",
+    href: "https://www.youtube.com/watch?v=kGSGXaZM5Ew",
+    target: "_blank",
+    rel: "noopener"
+  }, /*#__PURE__*/React.createElement("img", {
+    src: "img/doc-tfn2024.jpg",
+    alt: "Conquer the Nilgiris, Tour of Nilgiris 2024 documentary",
+    loading: "lazy"
+  }), /*#__PURE__*/React.createElement("div", {
+    className: "m"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "t"
+  }, "Conquer the Nilgiris \u2014 Tour of Nilgiris 2024"), /*#__PURE__*/React.createElement("div", {
+    className: "s"
+  }, /*#__PURE__*/React.createElement("span", null, "63 min"), /*#__PURE__*/React.createElement("span", null, "4K"), /*#__PURE__*/React.createElement("span", null, "Watch"))))), /*#__PURE__*/React.createElement("p", {
+    className: "src"
+  }, "Two feature films already made and online. Nandi Epic 2026 gets a live stream, a documentary and a series.")))), /*#__PURE__*/React.createElement("section", {
+    id: "assets",
+    style: {
+      background: "var(--panel2)"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "wrap"
+  }, /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement("p", {
+    className: "eyebrow"
+  }, "Where your logo lands"), /*#__PURE__*/React.createElement("h2", null, "On every rider.", /*#__PURE__*/React.createElement("br", null), "On the mountain."), /*#__PURE__*/React.createElement("p", {
+    className: "lede"
+  }, "Fourteen surfaces carry a logo across race weekend. Every one of them is blank today.")), /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement(Placements, null)))), /*#__PURE__*/React.createElement("section", {
+    id: "slots",
+    className: "goldsec"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "wrap"
+  }, /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement("p", {
+    className: "eyebrow gold"
+  }, "The board"), /*#__PURE__*/React.createElement("h2", {
+    className: "goldline"
+  }, "Three slots open."), /*#__PURE__*/React.createElement("p", {
+    className: "lede"
+  }, "Tap a tier to see exactly what it carries.")), /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement(Slots, null)), /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement("h3", {
+    style: {
+      marginTop: "2.8rem"
+    }
+  }, "One date decides how much you get"), /*#__PURE__*/React.createElement("div", {
+    className: "tl"
+  }, [["12 Oct", "Entries open", "All three distances go live.", true], ["20 Oct", "Artwork to printer", "Last day to appear on printed rider kit.", false], ["19 Nov", "Expo and bib collection", "Your stall, in front of the whole field.", false], ["20 Nov", "Race day", "Road closed to the summit until 10:00.", false], ["4 Dec", "Report delivered", "Reach, leads, sampling and rider survey.", false]].map(([d, t, s, done], i) => /*#__PURE__*/React.createElement("div", {
+    className: `tlrow ${done ? "done" : ""}`,
+    key: i
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "d"
+  }, d), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    className: "t"
+  }, t), /*#__PURE__*/React.createElement("div", {
+    className: "s"
+  }, s)))))))), /*#__PURE__*/React.createElement("div", {
+    className: "band"
+  }, /*#__PURE__*/React.createElement(Pic, {
+    name: "startline",
+    alt: "Riders on the Nandi Epic start line"
+  }), /*#__PURE__*/React.createElement("div", {
+    className: "wrap"
+  }, /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement("p", {
+    className: "eyebrow"
+  }, "The ask"), /*#__PURE__*/React.createElement("h2", null, "Put your name", /*#__PURE__*/React.createElement("br", null), "on the mountain"), /*#__PURE__*/React.createElement("p", {
+    className: "lede"
+  }, "Confirm by 20 October and it goes on every printed item.")))), /*#__PURE__*/React.createElement("footer", {
+    className: "foot"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "wrap"
+  }, /*#__PURE__*/React.createElement("img", {
+    className: "bbchmark",
+    src: "img/logo-bbch.png",
+    alt: "BBCh.in \u2014 live to race"
+  }), /*#__PURE__*/React.createElement("p", {
+    className: "eyebrow m"
+  }, "Bangalore Bicycle Championships \xB7 Since 2009"), /*#__PURE__*/React.createElement("div", {
+    className: "contact"
+  }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("b", null, "Contact"), /*#__PURE__*/React.createElement("span", null, "Parashram Gore")), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("b", null, "Phone"), /*#__PURE__*/React.createElement("span", null, "+91 87624 95737")), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("b", null, "Email"), /*#__PURE__*/React.createElement("span", null, "council@bbch.in"))))));
+}
+ReactDOM.createRoot(document.getElementById("root")).render(/*#__PURE__*/React.createElement(App, null));
+</script>
+
+</body></html>
